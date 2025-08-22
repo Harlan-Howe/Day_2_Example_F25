@@ -18,6 +18,8 @@ public class PracticeClass
     {
         System.out.println("What is your name? ");
         // TODO: we need to write this!
+        myName = keyReader.nextLine();
+        System.out.println("Hello, "+myName+"!");
     }
 
     /**
