@@ -29,11 +29,24 @@ public class PracticeClass
     {
         System.out.println("I'm gonna say hello 5 times!");
         // TODO: we need to write this, too.
-        int i = 0;
-        while (i < 5)
+//        int i = 0;
+//        while (i < 5)
+//        {
+//            System.out.println("Howdy again, "+myName);
+//            i = i + 1;
+//        }
+        for (int i = 0; i < 5; i++)
         {
-            System.out.println("Howdy again, "+myName);
-            i = i + 1;
+            System.out.println(i+"\tHowdy again, "+myName);
         }
+
+        double x = 5;
+        double y = 3;
+        System.out.println(x/y);
+
+        System.out.println(Math.pow(5,3));
+        System.out.println(Math.sqrt(25));
+        System.out.println(Math.abs(-42));
+
     }
 }
