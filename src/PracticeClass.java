@@ -17,7 +17,7 @@ public class PracticeClass
     public void greetUser()
     {
         System.out.println("What is your name? ");
-        // TODO: we need to write this!
+        // Done: we need to write this!
         myName = keyReader.nextLine();
         System.out.println("Hello, "+myName+"!");
     }
@@ -29,5 +29,11 @@ public class PracticeClass
     {
         System.out.println("I'm gonna say hello 5 times!");
         // TODO: we need to write this, too.
+        int i = 0;
+        while (i < 5)
+        {
+            System.out.println("Howdy again, "+myName);
+            i = i + 1;
+        }
     }
 }
